@@ -39,7 +39,7 @@ float resistenciaTotal(int opt = 0) {
 int main() {
     int opt = -1;
     while (opt != 0) {
-        cout << "1. Resistencia en serie\n2. Resistencia en paralelo\n3. Voltaje\n4. Continuar si hay más datos" << endl;
+        cout << "1. Resistencia en serie \n2. Resistencia en paralelo\n3. Voltaje\n4. Continuar si hay más datos" << endl;
         cin >> opt;
         if (opt == 4) {
             opt = 0;
