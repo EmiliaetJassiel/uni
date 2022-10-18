@@ -14,7 +14,13 @@ Al finalizar imprime el descuento y el total a pagar.
 
 using namespace std;
 int main() {
-    
+    int monto;
+    cout << "Monto a pagar: "; cin >> monto;
+    if (monto >= 0) {
+        if (monto <= 500) {
+            cout << "Descuento de 0%" << endl;
+        }
+    }
 
     return 0;
 }
