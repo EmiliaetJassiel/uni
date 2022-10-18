@@ -59,6 +59,8 @@ bool anemia(float age, float g, int opt, int sex) {
     else {
         return true;
     }
+    
+    return 0;
 }
 
 int main() {
